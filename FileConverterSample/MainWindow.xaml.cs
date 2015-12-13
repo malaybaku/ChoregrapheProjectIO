@@ -99,7 +99,7 @@ namespace FileConverterSample
 
             //区切り文字以外の設定も順に拾う
             int interval = 0;
-            int.TryParse(TextBoxFrequency.Text, out interval);
+            int.TryParse(TextBoxDataSkipWidth.Text, out interval);
             if (interval > 0)
             {
                 loaderSetting.Interval = interval;

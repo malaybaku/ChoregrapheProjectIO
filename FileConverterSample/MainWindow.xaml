@@ -35,11 +35,11 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="データスキップ幅" />
-                <TextBox x:Name="TextBoxFramePerData" Width="50" Text="1" />
+                <TextBox x:Name="TextBoxDataSkipWidth" Width="50" Text="1" />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="出力フレーム幅" />
-                <TextBox x:Name="TextBoxFrequency" Width="50" Text="1" />
+                <TextBox x:Name="TextBoxFramePerData" Width="50" Text="1" />
             </StackPanel>
             <CheckBox x:Name="CheckBoxUseLastLine" IsChecked="True" Content="最終行のデータを必ず使用" />
             <CheckBox x:Name="CheckBoxUseDataAsRadianBase" IsChecked="False" Content="弧度法で指定されたデータを読み込む" />
